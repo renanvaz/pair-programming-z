@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle pair-programming-z",
+        "command": "pair-programming-z:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "pair-programming-z",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "pair-programming-z:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

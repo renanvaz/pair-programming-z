@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "pair-programming-z:server",
+    "ctrl-alt-p": "pair-programming-z:toggle"
+  }
+}
