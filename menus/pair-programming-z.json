@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle pair-programming-z",
-        "command": "pair-programming-z:toggle"
+        "label": "Start a server pair-programming-z",
+        "command": "pair-programming-z:server"
       }
     ]
   },
@@ -15,8 +15,12 @@
           "label": "pair-programming-z",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "pair-programming-z:toggle"
+              "label": "Start a server",
+              "command": "pair-programming-z:server"
+            },
+            {
+              "label": "Connect to a server",
+              "command": "pair-programming-z:client"
             }
           ]
         }
