@@ -4,27 +4,114 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+@hue-1:   hsl(187, 47%, 55%); // <-cyan
+@hue-2:   hsl(207, 82%, 66%); // <-blue
+@hue-3:   hsl(286, 60%, 67%); // <-purple
+@hue-4:   hsl( 95, 38%, 62%); // <-green
+
+@hue-5:   hsl(355, 65%, 65%); // <-red 1
+@hue-5-2: hsl(  5, 48%, 51%); // <-red 2
+
+@hue-6:   hsl( 29, 54%, 61%); // <-orange 1
+@hue-6-2: hsl( 39, 67%, 69%); // <-orange 2
+
+.pair-programming-z_overlay {
+  .region {
+    opacity: .15;
+  }
+}
+
+.pair-programming-z_color-0 {
+  background-color: @hue-1;
+
+  .region {
+    background-color: @hue-1;
+  }
+}
+
+.pair-programming-z_color-1 {
+  background-color: @hue-2;
+
+  .region {
+    background-color: @hue-2;
+  }
+}
+
+.pair-programming-z_color-2 {
+  background-color: @hue-3;
+
+  .region {
+    background-color: @hue-3;
+  }
+}
+
+.pair-programming-z_color-3 {
+  background-color: @hue-4;
+
+  .region {
+    background-color: @hue-4;
+  }
+}
+
+.pair-programming-z_color-4 {
+  background-color: @hue-5;
+
+  .region {
+    background-color: @hue-5;
+  }
+}
+
+.pair-programming-z_color-5 {
+  background-color: @hue-5-2;
+
+  .region {
+    background-color: @hue-5-2;
+  }
+}
+
+.pair-programming-z_color-6 {
+  background-color: @hue-6;
+
+  .region {
+    background-color: @hue-6;
+  }
+}
+
+.pair-programming-z_color-7 {
+  background-color: @hue-6-2;
+
+  .region {
+    background-color: @hue-6-2;
+  }
+}
+
 .pair-programming-z {
 
 }
 
-.pair-programming-z_cursor {
+.pair-programming-z_cursor-wrapper {
   position: relative;
-  width: 2px;
-  opacity: .7;
-}
+  padding: 0 5px;
+  margin-left: -5px;
 
-.pair-programming-z_name {
-  display: none;
-  color: #333;
-  font-size: 10px;
-  line-height: 12px;
-  padding: 2px 5px;
-  position: absolute;
-  top: -2px;
-  left: 50%;
-  text-transform: uppercase;
-  transform: translate(-50%, -100%);
+  .pair-programming-z_cursor {
+    position: relative;
+    width: 2px;
+    opacity: .7;
+  }
+
+  .pair-programming-z_name {
+    display: none;
+    color: #333;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 2px 5px;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, -100%);
+  }
 }
 
 .blink {
